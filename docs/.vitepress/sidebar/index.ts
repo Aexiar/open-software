@@ -8,20 +8,14 @@ export const sidebar: DefaultTheme.Sidebar = {
     },
     {
       text: 'Java学科',
-      collapsed: true,
-      items: [
-        { text: '初识 C 语言', link: `/notes/01_c/01_${commonDirectoryName}/` },
-      ]
+      link: `/notes/02_java/`
     },
     {
-      text: '数据结构和算法',
-      collapsed: true,
-      items: [
-        { text: '初识 C 语言', link: `/notes/01_c/01_${commonDirectoryName}/` },
-      ]
+      text: '前端学科',
+      link: `/notes/03_web-design/`
     },
     {
-      text: '计算机网络',
+      text: '其它',
       collapsed: true,
       items: [
         { text: '初识 C 语言', link: `/notes/01_c/01_${commonDirectoryName}/` },
