@@ -12,13 +12,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.14.7",
-    "vitepress": "^1.0.0-rc.36"
+    "@types/node": "^20.14.9",
+    "vitepress": "^1.2.3"
   },
   "dependencies": {
-    "dayjs": "^1.11.10",
-    "dotenv": "^16.3.1",
+    "dayjs": "^1.11.11",
+    "dotenv": "^16.4.5",
     "medium-zoom": "^1.1.0",
-    "vitepress-plugin-comment-with-giscus": "^1.1.11"
+    "vitepress-plugin-comment-with-giscus": "^1.1.15"
   }
 }
