@@ -1,5 +1,4 @@
 import { DefaultTheme } from 'vitepress'
-import { commonDirectoryName } from '../utils/constant'
 export const sidebar: DefaultTheme.Sidebar = {
   '/notes/': [
     {

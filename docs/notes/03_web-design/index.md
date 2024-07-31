@@ -118,7 +118,7 @@
 
 * npm (Node Package Manager)：Node.js 的默认包管理工具。
 
-## 2.2 Yarn
+## 2.2 yarn
 
 ### 2.2.1 概述
 
