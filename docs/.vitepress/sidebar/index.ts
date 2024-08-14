@@ -12,6 +12,10 @@ export const sidebar: DefaultTheme.Sidebar = {
     {
       text: '前端学科',
       link: `/notes/03_web-design/`
+    },
+    {
+      text: 'c/c++学科',
+      link: `/notes/05_c/`
     }
   ],
 }
