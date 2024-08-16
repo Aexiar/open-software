@@ -14,4 +14,5 @@ export const nav: DefaultTheme.NavItem[] = [
     ]
   },
   { text: '开源软件', link: '/notes/' },
+  { text: '关于我', link: '/notes/about/' },
 ]
