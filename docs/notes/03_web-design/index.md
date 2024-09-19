@@ -1,6 +1,65 @@
-# 第一章：代码编辑器和开发工具
+# 第一章：SDK 和 IDE
 
-## 1.1 Node.js
+## 1.1 概述
+
+### 1.1.1 SDK
+
+* `定义`：SDK（Software Development Kit） 是一个集合，包括软件开发所需的工具、库、文档和示例代码。它通常用于特定的平台或框架。
+* `功能`：
+  - ① 提供编程接口（API），允许开发者与平台或服务进行交互。
+  - ② 包含调试工具和测试工具，帮助开发者检测和修复错误。
+  - ③ 提供文档和示例代码，指导开发者如何使用 SDK。
+  - ④ ...
+
+> [!CAUTION]
+>
+> * ① 虽然 Node.js 提供了一些工具和库，但它更关注于提供一个运行环境，而不是像 SDK 那样全面集成的工具集合。
+> * ② SDK 通常包含特定平台或框架的 API、文档和示例代码。
+> * ③ 尽管 Node.js 包含了一些开发所需的组件，但它并不完全符合 SDK 的定义。
+
+
+
+* 示例：
+
+```shell
+Android SDK # 用于开发 Android 应用的工具包
+```
+
+
+
+* 示例：
+
+```shell
+.NET SDK # 用于构建和运行 .NET 应用的工具
+```
+
+### 1.1.2 IDE
+
+- `定义`：IDE（Integrated Development Environment）是一种软件应用，提供综合的环境以便进行软件开发。它集成了代码编辑器、调试器和构建自动化工具。
+- `功能`：
+  - ① 代码编辑：提供语法高亮、自动补全和代码格式化等功能。
+  - ② 调试：允许开发者在代码中设置断点，逐步执行代码以检查逻辑。
+  - ③ 版本控制集成：支持 Git 等版本控制系统的功能。
+  - ④ 界面友好：通常具有图形用户界面，使得开发更直观。
+  - ⑤ ...
+
+
+
+* 示例：
+
+```shell
+Visual Studio # 用于开发 .NET 和其他应用的 IDE
+```
+
+
+
+* 示例：
+
+```shell
+IntelliJ IDEA # 用于 Java 和其他语言的 IDE
+```
+
+## 1.2 Node.js
 
 * Node.js 是一个免费、开源、跨平台的 JavaScript 运行时环境，它让开发人员能够创建服务器、Web 应用、命令行工具和脚本。
 
@@ -21,9 +80,9 @@
 | Linux   | ✅        |
 | Mac     | ✅        |
 
-## 1.2 开发工具
+## 1.3 IDE（集成开发环境）
 
-### 1.2.1 Visual Studio Code（VsCode）
+### 1.3.1 Visual Studio Code（VsCode）
 
 * Visual Studio Code 是一个轻量级但功能强大的源代码编辑器，可在桌面上运行，适用于 Windows、macOS 和 Linux。它内置了对 JavaScript、TypeScript 和 Node.js 的支持，并具有针对其他语言和运行时（如 C++、C#、Java、Python、PHP、Go、.NET）的丰富扩展生态系统。
 
@@ -48,7 +107,7 @@
 | Linux   | ✅        |
 | Mac     | ✅        |
 
-### 1.2.2 WebStorm
+### 1.3.2 WebStorm
 
 * WebStorm 是一个用于使用 JavaScript 及其相关技术进行编码的集成开发环境。 就像 IntelliJ IDEA 和其他 JetBrains IDE 一样，WebStorm 将使您的开发体验更加愉快，自动化日常工作并帮助您轻松处理复杂的任务。
 
@@ -72,9 +131,9 @@
 | Linux   | ✅        |
 | Mac     | ✅        |
 
-## 1.3 nvm-desktop
+## 1.4 nvm-desktop
 
-* `nvm-desktop` 是一个以可视化界面操作方式管理多个 Node 版本的桌面应用，使用 Electron 构建（支持 Macos 和 Windows 系统）。通过该应用，您可以快速安装和使用不同版本的 Node。
+* `nvm-desktop` 是一个以可视化界面操作方式管理多个 Node 版本的桌面应用，使用 Electron 构建（支持 Macos 和 Windows 系统）。通过该应用，我们可以快速安装和使用不同版本的 Node。
 
 * 项目截图：
 
